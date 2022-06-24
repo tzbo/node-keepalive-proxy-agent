@@ -1,6 +1,6 @@
 {
-  "name": "keepalive-proxy-agent",
-  "description": "proxy agent that honors keepalive",
+  "name": "keepalive-proxy-agent2",
+  "description": "proxy agent that honors keepalive, supports https proxy",
   "main": "index.js",
   "scripts": {
     "bump": "test -n \"$1\" && npm version $1 && npm publish && git push",
@@ -14,14 +14,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mknj/node-keepalive-proxy-agent.git"
+    "url": "git+https://github.com/tzbo/node-keepalive-proxy-agent.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mknj/node-keepalive-proxy-agent/issues"
+    "url": "https://github.com/tzbo/node-keepalive-proxy-agent/issues"
   },
-  "homepage": "https://github.com/mknj/node-keepalive-proxy-agent#readme",
+  "homepage": "https://github.com/tzbo/node-keepalive-proxy-agent#readme",
   "dependencies": {},
   "devDependencies": {
     "https-agent": "^1.0.0",
@@ -38,5 +38,5 @@
     "tunnel": "0.0.6",
     "tunnel-agent": "^0.6.0"
   },
-  "version": "1.2.2"
+  "version": "1.2.4"
 }
